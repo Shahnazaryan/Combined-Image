@@ -1,0 +1,105 @@
+.combine-images2-template {
+    width: 1230px;
+    height: 750px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.combine-images2-section {
+    width: 600px;
+    height: 630px;
+    background: #6B93DB;
+    display: inline-block;
+    position: relative;
+    background-repeat: no-repeat;
+   
+    cursor: move;
+}
+
+.combine-images2-section:active {
+    cursor: grab;
+}
+/*
+.combine-images-section:after {
+content: 'Click to upload';
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -6px;
+margin-left: -50px;
+display: none;
+}
+ */
+
+    .combine-images2-section:hover:after {
+        display: block;
+    }
+
+    .combine-images2-section-size-up, .combine-images2-section-size-down {
+        position: absolute;
+        padding: 5px 15px;
+        background: rgba(0, 0, 0, 70);
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .combine-images2-section .combine-images2-section-size-up {
+        bottom: 10px;
+        left: 10px;
+    }
+    .combine-images2-section .combine-images2-section-size-down {
+        bottom: 10px;
+        left: 50px;
+    }
+
+    .combine-images2-template .combine-images2-form {
+        display: none;
+    }
+    
+ .combine-images2-section input{
+         width: 50px;
+        font-size: 12px;
+        background: #000000 !important;
+        position: absolute;
+        bottom: 9px;
+        left: 87px;
+		height: 28px;
+	color: #ffffff;
+	border: none;
+ 	text-align: center;
+}
+
+    .combine-images2-link {
+        width: 599px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+    }
+    .submit-combine-images2 {
+        text-align: right;
+        padding-top: 30px;
+    }
+
+
+    #TB_window #adminmenumain {
+        display: none;
+    }
+    #TB_window #wpcontent {
+        margin-left: 0px;
+    }
+
+    #TB_window #TB_ajaxContent {
+        width: auto !important;
+        height: auto !important;
+    }
+    #select-template,
+    .combine-add_border_parent{
+        float: left;
+        padding-right: 20px;
+    }
+    .combine-add_border_parent label,
+    .combine-add_border_parent input{
+        margin: 5px 10px 5px 5px;
+        display: block;
+        float: left;
+    }
